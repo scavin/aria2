@@ -14,9 +14,7 @@ RUN set -x \
 
     # Install packages
 
-    && apk add --no-cache --update aria2 && \
-
-           ca-certificates \
+    && apk add --no-cache --update aria2 \
 
     # Clean
 
