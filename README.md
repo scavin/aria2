@@ -2,11 +2,11 @@
 
 ## Installation
 
-Pull the image `timonier/aria2`:
+Pull the image `scavin/aria2`:
 
 ```sh
-# Get the latest image (version 1.18.10)
-docker pull timonier/aria2
+# Get the latest image (version 1.31.0)
+docker pull scavin/aria2
 
 # Or get a specific version
 
