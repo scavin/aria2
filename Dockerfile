@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:edge
 MAINTAINER Morgan Auchede <morgan.auchede@gmail.com>
 
 ENV \
