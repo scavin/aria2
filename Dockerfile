@@ -14,10 +14,8 @@ RUN set -x \
 
     # Install packages
 
-    && RESOLVED_ARIA2_VERSION=$(resolve aria2 $ARIA2_VERSION) \
+    && apk add --no-cache --update aria2 && \
 
-    && apk add \
-           aria2=${RESOLVED_ARIA2_VERSION:?"Impossible to find 'aria2' in version '$ARIA2_VERSION'"} \
            ca-certificates \
 
     # Clean
