@@ -2,7 +2,7 @@ FROM alpine:edge
 MAINTAINER Morgan Auchede <morgan.auchede@gmail.com>
 
 ENV \
-    ARIA2_VERSION=1.31.0-r0
+    ARIA2_VERSION=1.36.0
 
 RUN set -x \
 
