@@ -1,5 +1,5 @@
 FROM alpine:edge
-LABEL Appinn <contact@appinn.com>
+LABEL maintainer="Appinn <contact@appinn.com>"
 
 ENV ARIA2_VERSION=1.37.0
 
